@@ -16,3 +16,4 @@ plotly
 pycountry
 fpdf2
 kaleido
+rapidfuzz
