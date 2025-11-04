@@ -1,3 +1,5 @@
+selenium
+webdriver-manager
 fastapi
 uvicorn[standard]
 python-multipart
@@ -6,7 +8,7 @@ bibtexparser
 scikit-learn
 scipy
 sentence-transformers
-torch==2.4.1+cpu --index-url https://download.pytorch.org/whl/cpu
+torch
 matplotlib
 pandas
 wordcloud
@@ -14,7 +16,6 @@ plotly
 pycountry
 fpdf2
 kaleido
+networkx
 rapidfuzz
-
---find-links https://download.pytorch.org/whl/cpu
-torch==2.9.0+cpu
+numpy
