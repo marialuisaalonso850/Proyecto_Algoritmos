@@ -170,11 +170,12 @@ if __name__ == '__main__':
     # Prueba con el método 'ward'
     print("\nEjecutando con método: 'ward'")
     resultado_ward = analizar_agrupamiento_completo(metodo='ward', num_articulos=25)
-    if "error" in resultado_ward:
-        print(f"  Error: {resultado_ward['error']}")
-    else:
-        print(f"  Análisis completado para {resultado_ward['num_articulos_analizados']} artículos.")
-        print(f"  Gráfico generado: {resultado_ward['grafico_dendrograma_base64' is not None]}")
+
+if "error" in resultado_ward:
+    print(f"  Error: {resultado_ward['error']}")
+else:
+    print(f"  Análisis completado para {resultado_ward['num_articulos_analizados']} artículos.")
+    print(f"  Gráfico generado: {resultado_ward['grafico_dendrograma_base64'] is not None}")
 
     # Prueba con el método 'average'
     print("\nEjecutando con método: 'average'")
