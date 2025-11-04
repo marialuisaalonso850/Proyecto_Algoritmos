@@ -1,0 +1,5 @@
+[tool.poetry]
+name = "mi-proyecto"
+version = "0.1.0"
+description = ""
+authors = ["tu nombre"]
